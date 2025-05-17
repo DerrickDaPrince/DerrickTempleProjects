@@ -1,9 +1,9 @@
-#Task 1 
-number = float(input("Enter a number: "))  # Convert input to number (int or float)
+#Task 1
+number = float(input("Enter a number: ")) 
 
 if number > 0:
-    print("The number is positive.")
+    print(f"{number} is a positive number.")
 elif number == 0:
     print("The number is zero.")
 else:
-    print("The number is negative.")
+    print(f"{number} is a negative number.")
